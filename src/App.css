@@ -1,0 +1,132 @@
+.App {
+}
+
+.movies-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-container {
+  border-bottom: solid 2px lightgray;
+  padding: 20px;
+  background-color: #f7f8fa;
+  display: flex;
+  justify-content: space-between;
+}
+
+.movies-section {
+  display: flex;
+}
+
+.movie {
+  padding: 20px;
+  display: flex;
+  border-bottom: solid 2px lightgray;
+  cursor: pointer;
+}
+
+.movie-details {
+  padding: 36px;
+  width: 50%;
+}
+
+.movie-list {
+  width: 50%;
+  border-collapse: collapse;
+  border-right: solid 2px lightgray;
+  height: 100vh;
+  overflow: scroll;
+}
+
+.episode {
+  width: 20%;
+  font-weight: 400;
+  /* color: darkslategrey; */
+  color: #20415f;
+  font-size: 0.9rem;
+}
+
+.title {
+  width: 60%;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #20415f;
+}
+
+.ratingTd {
+  width: 20%;
+  font-size: 0.9rem;
+  color: #20415f;
+}
+
+.date {
+  width: 20%;
+  font-size: 0.9rem;
+  color: #20415f;
+}
+
+.datials-title {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #20415f;
+  margin-bottom: 1rem;
+}
+
+.datials-story {
+  color: darkslategrey;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+input {
+  padding: 8px;
+  background-color: #ffffff;
+  border: none;
+  border: solid 1px #cbd3d7;
+  border-radius: 8px;
+  height: 24px;
+  width: 85%;
+}
+
+.filter-section {
+  padding: 8px;
+  background-color: #ffffff;
+  border: none;
+  border: solid 1px #cbd3d7;
+  border-radius: 8px;
+  align-items: center;
+  display: flex;
+  width: 10%;
+}
+
+img {
+  float: left;
+  height: 10em;
+  width: 150px;
+  margin: 0 10px 10px 0;
+}
+
+.rating-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.rating {
+  border: solid 1px #1088d1;
+  border-radius: 32px;
+  display: flex;
+  flex-direction: row;
+  padding: 8px;
+  color: #1088d1;
+  font-size: 0.686rem;
+}
+
+.laoding {
+  text-align: center;
+  padding-top: 20px;
+}
+.checked {
+  color: orange;
+}
