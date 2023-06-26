@@ -1,29 +1,26 @@
-# Features 
-list of movies
+### Features
 
-search movies with debounce functionality
+`list of movies`
 
-sort movies by episode id and date
+`search movies with debounce functionality`
 
-select movie to see deatils
+`sort movies by episode id and date`
 
-you can see detals of moview with poster and rating
+`select movie to see deatils`
 
-# Code  
+`you can see detals of moview with poster and rating`
 
-used typescript
+### Code
 
-support Unit test cases with jest and enzyme
+`used typescript`
 
-react component first approach
+`support Unit test cases with jest and enzyme`
 
-use of functional components
+`react component first approach`
 
-modular structure: components, utils, interfaces 
+`use of functional components`
 
-
-
-
+`modular structure: components, utils, interfaces`
 
 # Getting Started with Create React App
 
