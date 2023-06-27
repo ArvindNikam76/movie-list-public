@@ -3,6 +3,7 @@ import { sortMovies } from "./MovieList";
 import Enzyme, { mount } from "enzyme";
 import * as Utils from "../../utils/server";
 import Adapter from "@cfaester/enzyme-adapter-react-18";
+import { waitFor } from "@testing-library/react";
 Enzyme.configure({ adapter: new Adapter() });
 
 // import MovieList from "./index";
@@ -98,8 +99,9 @@ describe("Test Movie List componet", () => {
     expect(sortedMovies).toStrictEqual(expectedSortedMovies);
   });
 
-  it("MovieList should call fetchMovieDetailsSpy", () => {
+  it("MovieList should call fetchMovieDetailsSpy", async () => {
     const movieList = mount(<MovieList />);
+    await waitFor(() => movieList);
     expect(fetchMovieDetailsSpy).toHaveBeenCalled();
     expect(movieList.exists()).toBe(true);
   });
