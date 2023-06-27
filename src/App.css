@@ -1,4 +1,5 @@
-.App {
+* {
+  color: #20415f;
 }
 
 .movies-container {
@@ -28,6 +29,9 @@
 .movie-details {
   padding: 36px;
   width: 50%;
+  color: #20415f;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 .movie-list {
